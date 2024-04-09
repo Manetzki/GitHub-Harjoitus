@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(54, 26, 26);
     color: white;
 }
 
@@ -24,4 +24,13 @@ ol {
 
 ul {
     list-style-type: square;
+}
+.img1 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.h12{
+    border:2px solid;
+    width: 10em;
 }
