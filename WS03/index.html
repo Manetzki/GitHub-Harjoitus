@@ -3,35 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h2>CSS Layout Float</h2>
-    <p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
-    <p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
-    
-    <header>
-      <h2>Cities</h2>
+    <header id="header">
+        <h1>My Web Page</h1>
     </header>
-    
-    <section>
-      <nav>
+    <div id="main-nav">
+        <a href="index.html">Index</a> 
+        <a href="second.html">Second</a> 
+        <a href="third.html">Third</a>
+
+    </div>
+    <section id="section">
+        <h2>Welcome to my web page!</h2>
+        <p>This is a paragraph in the main section.</p>
         <ul>
-          <li><a href="#">London</a></li>
-          <li><a href="#">Paris</a></li>
-          <li><a href="#">Tokyo</a></li>
+            <li>First list item</li>
+            <li>Second list item</li>
         </ul>
-      </nav>
-      
-      <article>
-        <h1>London</h1>
-        <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-        <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-      </article>
     </section>
-    
-    <footer>
-      <p>Footer</p>
-    </footer>
+    <footer class="thirdfooter">
+        <p><span id="copyright-name">Copyright © John Smith</span></p>
+      </footer>
 </body>
 </html>
