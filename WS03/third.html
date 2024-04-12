@@ -1,64 +1,47 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-    <head> 
-        <meta charset="UTF-8"> 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <title>My Web Page</title> 
-        <link rel="stylesheet" href="styles.css"> 
-    </head> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        </style>
+</head>
     <body>
-        <div class="header1">
-            <header> 
-                <h1>My Web Page</h1> 
-            </header>
-        </div> 
-        <div> 
-            <nav> 
-                <ul> 
-                    <li>
-                        <a href="index.html">London</a>
-                    </li> 
-                    <li>
-                        <a href="paris.html">Paris</a>
-                    </li> 
-                    <li>
-                        <a href="tokyo.html">Tokyo</a>
-                    </li> 
-                </ul> 
-            </nav>
-        </div> 
-        <main> 
-            <section id="london"> 
-                <h2>London</h2> 
-                <p>First page content...</p> 
-            </section> 
-            <section id="paris"> 
-                <h2>Paris</h2> 
-                <p>Second page content...</p> 
-            </section> 
-            <section id="tokyo"> 
-                <h2>Tokyo</h2> 
-                <p>Third page content...</p> 
-            </section> 
-        </main> 
-        <footer> 
-            <p>Copyright © John Smith</p> 
-        </footer> 
-    </body> 
-    </html>
+        <header class="thirdheader">
+          <h2>My Website</h2>
+        </header>
+        <div id="main-nav">
 
-    header { background-color: #333; color: #fff; padding: 1rem; }
+            <a href="index.html">Index</a> |
 
-nav ul { list-style-type: none; padding: 0; }
+            <a href="second.html">Second Page</a> |
 
-nav li { display: inline-block; margin-right: 1rem; }
+            <a href="third.html">Third Page</a>
 
-nav a { color: #333; text-decoration: none; }
-
-main { display: flex; justify-content: space-between; }
-
-section { flex: 1; margin: 0 1rem; }
-
-section h2 { margin-top: 0; }
-
-footer { background-color: #333; color: #fff; padding: 1rem; text-align: center; 
+        </div>
+        
+        <section>
+          <nav class="thirdnav">
+            <ul>
+                <a href="https://www.google.com" target="_blank">Google</a><br>
+                <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a><br>
+                <a href="https://www.github.com" target="_blank">GitHub</a><br>        
+            </ul>
+          </nav>
+          
+          <article class="thirdarticle">
+            <h1>Third</h1>
+            <p>This is my third pages.</p>
+            <p>You should have something similar</p>
+          </article>
+        </section>
+        
+        <footer class="thirdfooter">
+          <p><span id="copyright-name">Copyright © John Smith</span></p>
+        </footer>
+        
+        </body>
+        </html>
+        

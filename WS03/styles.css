@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+  }
 body {
     background-color: black;
     color: white;
@@ -12,7 +15,7 @@ h1 {
 
 p {
     font-size: 12px;
-    color: lightgray;
+    color: black;
 }
 
 .my-div {
@@ -42,4 +45,38 @@ ul {
 #section {
     background-color: rgb(34, 36, 32);
     padding: 10px;
+}
+.thirdheader{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+.thirdnav{
+        float: left;
+        width: 30%;
+        height: 300px; /* only for demonstration, should be removed */
+        background: #ccc;
+        padding: 20px;
+}
+.thirdarticle{
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px;
+    color: black;
+}
+.thirdfooter{
+    background-color: black;
+    text-align: center;
+}
+#copyright-name{
+    color: white;
+}
+#main-nav{
+    text-align: center;
+    background-color: grey;
+    color: white;
 }
