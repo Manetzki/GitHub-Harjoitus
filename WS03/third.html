@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>My Web Page</title> 
+        <link rel="stylesheet" href="styles.css"> 
+    </head> 
+    <body>
+        <div class="header1">
+            <header> 
+                <h1>My Web Page</h1> 
+            </header>
+        </div> 
+        <div> 
+            <nav> 
+                <ul> 
+                    <li>
+                        <a href="index.html">London</a>
+                    </li> 
+                    <li>
+                        <a href="paris.html">Paris</a>
+                    </li> 
+                    <li>
+                        <a href="tokyo.html">Tokyo</a>
+                    </li> 
+                </ul> 
+            </nav>
+        </div> 
+        <main> 
+            <section id="london"> 
+                <h2>London</h2> 
+                <p>First page content...</p> 
+            </section> 
+            <section id="paris"> 
+                <h2>Paris</h2> 
+                <p>Second page content...</p> 
+            </section> 
+            <section id="tokyo"> 
+                <h2>Tokyo</h2> 
+                <p>Third page content...</p> 
+            </section> 
+        </main> 
+        <footer> 
+            <p>Copyright © John Smith</p> 
+        </footer> 
+    </body> 
+    </html>
+
+    header { background-color: #333; color: #fff; padding: 1rem; }
+
+nav ul { list-style-type: none; padding: 0; }
+
+nav li { display: inline-block; margin-right: 1rem; }
+
+nav a { color: #333; text-decoration: none; }
+
+main { display: flex; justify-content: space-between; }
+
+section { flex: 1; margin: 0 1rem; }
+
+section h2 { margin-top: 0; }
+
+footer { background-color: #333; color: #fff; padding: 1rem; text-align: center; 
